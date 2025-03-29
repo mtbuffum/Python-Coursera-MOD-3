@@ -16,7 +16,7 @@ This repository contains three Python scripts, two of which serve as practice ex
 - **Libraries Used:** `collections`, `json`, `locale`, `mimetypes`, `os.path`, `reports`, `sys`, `emails`
 
 ### 2. **Email Practice Script**
-- **Filename:** `email_practice.py`
+- **Filename:** `EmailPrac.py`
 - **Purpose:** This script is a practice exercise for sending emails using Python.
 - **Key Functionalities:**
   - Creates an email using `email.message.EmailMessage`.
@@ -25,7 +25,7 @@ This repository contains three Python scripts, two of which serve as practice ex
 - **Libraries Used:** `email.message`, `smtplib`, `getpass`
 
 ### 3. **PDF Report Practice Script**
-- **Filename:** `pdf_practice.py`
+- **Filename:** `pdfPrac.py`
 - **Purpose:** This script is a practice exercise for generating PDF reports using `reportlab`.
 - **Key Functionalities:**
   - Generates a PDF document titled "A Complete Inventory of My Fruit".
@@ -35,7 +35,7 @@ This repository contains three Python scripts, two of which serve as practice ex
 
 ## How to Use
 1. **Car Sales Report Script:**
-   - Ensure `car_sales.json` is present in the same directory.
+   - Ensure `car_sales.json` is present in the same directory note these files were given in challenge via qwiklabs.
    - Run the script: `python car_sales_report.py`
    - The script will generate a PDF report and email it.
 
